@@ -1,0 +1,107 @@
+.about-section {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+.about-section header {
+  text-align: center;
+}
+.about-section header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+.about-section header p {
+  color: #666;
+  margin-bottom: 20px;
+}
+.about-section .tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.about-section .tabs button.tab {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+.about-section .tabs button.tab:hover {
+  background-color: #f8f8f8;
+}
+.about-section .tabs button.tab.active {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+.about-section .tab-content {
+  display: flex;
+  align-items: flex-start;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+.about-section .tab-content .history-image {
+  width: 50%;
+  margin-right: 20px;
+}
+.about-section .tab-content .history-image img {
+  width: 100%;
+  display: block;
+  border-radius: 4%;
+}
+.about-section .tab-content .history-text {
+  width: 50%;
+  margin-top: 3%;
+  margin-left: -26%;
+}
+.about-section .tab-content .history-text h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+.about-section .tab-content .history-text p {
+  color: #333;
+  line-height: 1.6;
+  width: 100%;
+}
+.about-section .tab-content .vision-text {
+  width: 50%;
+  margin-top: 3%;
+  margin-left: -26%;
+}
+.about-section .tab-content .vision-text h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+.about-section .tab-content .vision-text p {
+  color: #333;
+  line-height: 1.6;
+  width: 100%;
+}
+.about-section .tab-content .goals-text {
+  box-shadow: #c6c3c3;
+  width: 50%;
+  margin-top: 3%;
+  margin-left: -26%;
+}
+.about-section .tab-content .goals-text h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+.about-section .tab-content .goals-text p {
+  color: #333;
+  line-height: 1.6;
+  width: 100%;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+.hidden {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
